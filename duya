@@ -1,0 +1,13 @@
+<context>
+    <input>
+        <pattern value="repeat([дуся|всем] (привет|здравствуй*) [дуся])"/>
+        <output>
+            <item value="Привет"/>
+            <item value="Привет привет"/>
+            <item value="здоровчик"/>
+            <item value="нихао"/>
+            <item value="приветули"/>
+            <item value="банжур"/>
+        </output>
+    </input>
+</context>
