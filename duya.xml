@@ -36,6 +36,7 @@
             <item value="ЗБС"/>
             <item value="нормуль"/>
             <item value="Лучше всех"/>
+            <item value="дядя, да я тут как сыр в масле катаюсь. так а ты шо, бродягя"/>
         </output>
     </input>
 
@@ -52,6 +53,10 @@
             <item value="Работаю"/>
             <item value="Слушаю вас"/>
             <item value="Выполняю ваши просьбы"/>
+            <item value="за тебя спину гну"/>
+            <item value="хобочусь"/>
+            <item value="хобота петляю"/>
+            <item value="думаю"/>
         </output>
     </input>
 
