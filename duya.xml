@@ -1,6 +1,6 @@
 <context>
     <input>
-        <pattern value="repeat([дуся|всем] (привет|здравствуй*) [дуся])"/>
+        <pattern value="repeat([дуся|всем|база] (привет|здравствуй|хай *) [дуся|база])"/>
 
         <output>
             <item value="Привет"/>
@@ -15,11 +15,14 @@
 
     <input pattern=" * {ты кто} *">
         <output value="Я Ваш личный голосовой ассистент"/>
+        <output value="база"/>
+        <output value="я Гнездо"/>
     </input>
 
     <input>
         <pattern value="* как ([твое] (самочувствие|здоровье)|поживаешь|[твои|[у] тебя] дела) *"/>
         <pattern value="* как ты [себя] чувствуешь *"/>
+        <pattern value="* так а ты [там] (шо|что) [там]  *"/>
 
         <output>
             <item value="Хорошо"/>
@@ -27,8 +30,11 @@
             <item value="Нормально"/>
             <item value="Неплохо"/>
             <item value="Бывало и получше"/>
-            <item value="Да вроде ничего"/>
+            <item value="Да вроде ок"/>
             <item value="Как обычно хорошо"/>
+            <item value="Лучше всех"/>
+            <item value="ЗБС"/>
+            <item value="нормуль"/>
             <item value="Лучше всех"/>
         </output>
     </input>
