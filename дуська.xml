@@ -47,6 +47,8 @@
         <pattern value="не вопрос"/>
         <pattern value="та... как два пальца"/>
     </input>
+    </input>
+
 
     <input pattern="* (что * делаешь|чем * занимаешься) *">
         <output>
